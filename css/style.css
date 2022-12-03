@@ -1,0 +1,75 @@
+
+.card {
+    
+    margin: auto;
+    padding: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    width: 250px;
+    height: 350px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.1);
+}
+/* .card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: 500px;
+    padding: 20px;
+
+    background: rgba(255, 245, 238, 0.034);
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(1px);
+
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+} */
+
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: rgb(173, 98, 0);
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #000;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://img.freepik.com/free-photo/coffee-beans-with-props-making-coffee_1220-4536.jpg?w=996&t=st=1669615355~exp=1669615955~hmac=863daba77802e82e39a62586541c397fe2dff96b3fc349d4a8cd0cb7cc77d001);
+}
+
+hr {
+    border: 1px solid rgb(122, 68, 18);
+    border-radius: 5px;
+    width: 100%;
+}
+
+/* make a responsive card
+@media (max-width: 600px) {
+    .card {
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+    }
+} */
+
+/* q: an example of absolute position */
+
+
+
+
